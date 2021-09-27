@@ -1,0 +1,230 @@
+.navbar{
+
+       position: absolute;
+       z-index: 2;
+       
+}
+
+.carousel{
+
+       position: relative;
+       z-index: 1;
+}
+
+.nav-item{
+
+       margin-left: center !important;
+}
+
+hr{
+       position: relative;
+       color: aliceblue;
+       z-index: 3;
+}
+
+
+.carousel-item{
+
+       height: 800px;
+}
+
+
+/* mobile resposive */
+@media screen and (max-width: 600px)  {
+       
+       .carousel-item{
+       
+       height: auto;
+     }
+}
+
+#section2{
+
+       padding-top: 8rem;
+       padding-bottom: 8rem;
+}
+     
+
+.heading{
+
+       font-family: 'Dosis', sans-serif;
+}
+
+.para1{
+
+       padding-top: 2rem ;
+       padding-bottom: 3rem;
+}
+
+.years{
+
+       padding-top: 1rem;
+}
+
+.years-para{
+
+       padding-top: 2rem;
+       font-size: x-large;
+
+       padding-bottom: 4rem;
+
+}
+
+.btn-work{
+
+       padding: 1rem 2rem 1rem 2rem;
+}
+
+
+
+
+/* hover effect  */
+
+.column#caption {
+       position: relative;
+     }
+     .column#caption .text {
+         position: absolute;   
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         z-index: 10;
+         opacity: 0;
+         transition: all 0.8s ease;      
+     }
+     .column#caption .text h1 {    
+         margin: 0;    
+         color: white;
+     }
+     .column#caption:hover .text {
+       opacity: 1;
+       
+     }
+     .column#caption:hover img {
+       -webkit-filter: sepia(90%);
+     }
+
+     #section3{
+
+       padding-bottom: 3rem;
+     }
+
+
+     #section4{
+
+       padding-top: 5rem;
+       padding-bottom: 5rem;
+
+       background-color: aliceblue;
+
+
+
+     }
+
+     .sec4-heading{
+
+       padding-bottom: 2rem;
+
+     }
+
+     .sec4-h{
+            padding-top: 1rem;
+     }
+
+    
+     .sec5{
+            color:aliceblue;
+            text-align: center;
+            margin-top: 10%;
+            margin-right: 5%;
+     }
+
+     .sec5-p{
+
+       color:aliceblue;
+       padding-top: 2rem;
+       text-align: center;
+       font-size: larger;
+       margin-left: 20%;
+       margin-right: 20%;
+     }
+
+     .sec5-img{
+
+       margin-left: 45%;
+       margin-top: 5%;
+     }
+
+     .sec5-t{
+
+       color: aliceblue;
+       margin-left: 40%;
+       margin-right: 30%;
+       
+       padding-top: 2rem;
+     }
+
+     #section6{
+
+
+       padding-top: 5rem;
+       margin-left: 20%;
+       margin-right: 20%;
+       padding-bottom: 5rem;
+     }
+
+     .s7{
+
+       margin-left: auto;
+       margin-right: auto;
+              
+     }
+
+     #section8{
+
+       background-color: #343a40;
+       padding-top: 5rem;
+
+       padding-bottom: 3rem;
+
+
+     }
+
+     .end-text{
+
+       color: white;
+       font-family: 'Dosis', sans-serif;
+     }
+
+     .end-para{
+
+       padding-top: 2rem;
+     }
+
+     .end-link{
+
+       padding-top: 1rem;
+     }
+
+.end-btn{
+
+
+
+       padding-left: 4rem;
+       padding-right: 4rem;
+}
+
+.btn-sub{
+
+       padding-top: 2rem;
+
+}
+
+hr{
+       color: white;
+}
+
+.note{
+       text-align: center;
+
+}
